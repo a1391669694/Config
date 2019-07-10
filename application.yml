@@ -1,0 +1,21 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /
+
+spring:
+  application:
+     #服务名称
+    name: spring-cloud-demo-goods
+eureka:
+  client:
+    #是否将自己注册到注册中心
+    registerWithEureka: true
+    #是否从注册中心获取注册信息
+    fetchRegistry: true
+    service-url:
+      #客户端与服务端进行交互的地址
+      defaultZone: http://localhost:8083/eureka
+  instance:
+    #显示ip
+    prefer-ip-address: true
