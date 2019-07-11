@@ -3,7 +3,8 @@ spring:
     application:
         #服务名称
         name: spring-cloud-demo-goods-dev
-
+server:
+  port: 9998
 ---
 
 spring:
@@ -11,3 +12,5 @@ spring:
     application:
         #服务名称
         name: spring-cloud-demo-goods-test
+server:
+  port: 9999
