@@ -2,3 +2,4 @@ spring:
     application:
         #服务名称 goods-service
         name: spring-cloud-demo-goods-test
+        profiles: test
