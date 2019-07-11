@@ -4,6 +4,8 @@ spring:
         #服务名称
         name: spring-cloud-demo-goods-dev
 
+---
+
 spring:
     profiles: test #开发环境
     application:
